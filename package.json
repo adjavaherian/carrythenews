@@ -1,0 +1,27 @@
+{
+  "name": "carrythenews",
+  "version": "1.0.0",
+  "description": "Get new from Twitter User Streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adjavaherian/carrythenews.git"
+  },
+  "keywords": [
+    "twitter",
+    "news"
+  ],
+  "author": "@adjavaherian",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/adjavaherian/carrythenews/issues"
+  },
+  "homepage": "https://github.com/adjavaherian/carrythenews#readme",
+  "dependencies": {
+    "socket.io": "^1.4.5",
+    "twitter": "^1.2.5"
+  }
+}
