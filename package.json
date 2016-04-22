@@ -4,7 +4,8 @@
   "description": "Get new from Twitter User Streams",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
