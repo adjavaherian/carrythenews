@@ -1,7 +1,7 @@
 $(function() {
 
     // Handles
-    var $tweet = $('.tweet-h1'); // tweet h
+    var $tweet = $('.tweet-h1'); // tweet h1
 
     // Socket
     var socket = io();
