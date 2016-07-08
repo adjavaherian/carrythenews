@@ -18,7 +18,7 @@ var client = new Twitter({
 });
 
 // Tweet stream
-client.stream('statuses/filter', {track: 'javascript'}, function(stream) {
+client.stream('statuses/filter', {track: 'gun control'}, function(stream) {
   stream.on('data', function(tweet) {
       io.sockets.emit('new message', {
         username: 'newsguy',
