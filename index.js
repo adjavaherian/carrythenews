@@ -18,13 +18,13 @@ var client = new Twitter({
 });
 
 // Tweet stream
-client.stream('statuses/filter', {track: 'gun control'}, function(stream) {
+client.stream('statuses/filter', {track: 'gun control, guns, no more guns'}, function(stream) {
   stream.on('data', function(tweet) {
       io.sockets.emit('new message', {
         username: 'newsguy',
         message: tweet.text
       });
-      console.log(tweet.text);
+      //console.log(tweet.text);
   });
 
   stream.on('error', function(error) {
