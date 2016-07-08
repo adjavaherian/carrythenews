@@ -12,8 +12,8 @@ $(function() {
     // Events
     socket.on('new message', function (data) {
         // console.debug('tweet', data.message);
-        var color = '#'+Math.floor(Math.random()*16777215).toString(16);
-        $tweetDiv.append($tweet.html(data.message).css('color': color));
+        $tweet.html(data.message).css({'color': '#'+Math.floor(Math.random()*16777215).toString(16)}).appendTo($tweetDiv);
+
     });
 
 
