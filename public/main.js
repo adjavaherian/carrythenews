@@ -15,7 +15,7 @@ $(function() {
             html: data.message
         }); // tweet h1
 
-        $tweet.html(data.message).appendTo($tweetDiv);
+        $tweet.html(data.message).prependTo($tweetDiv);
 
     });
 
