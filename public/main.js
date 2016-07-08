@@ -20,7 +20,7 @@ $(function() {
     });
 
     setInterval(function(){
-        $tweetDiv.empty();
+        $tweetDiv.html('<h1 class="tweet-h1">#nomoreguns</h1>');
     }, 60000);
 
 });
